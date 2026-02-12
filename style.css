@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    width: 1920px;
+}
+
+header, main{
+    text-align: center;
+    background-color: #F5F5F7;
+}
+
+header > #top{
+    height: 72px;
+}
+
+header > #top > #logo{
+    display: inline-block;
+    width: 152px;
+    height: 50px;
+    margin: 11px;
+    background-color: #F0EDFF;
+    vertical-align: middle;
+}
+
+header > #top > #logo > a{
+    display: inline-block;
+    text-decoration: none;
+    color: #5B47D1;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    letter-spacing: 0%;
+    margin: 10px auto;
+}
+
+#logo + nav{
+    display: inline-block;
+    margin: 22px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+header > #top > nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header > #top > nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+header > #header{
+    height: 400px;
+    background-image: url("22.jpg");
+    background-size: cover;
+}
+
+header > #header > h1{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-top: 131px;
+}
+
+header > #header > h3{
+    color: #FFFFFF;
+    margin-top: 37px;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+main > h2{
+    margin: 45px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+main > section{
+    display: inline-block;
+    text-align: left;
+    width: 360px;
+    height: 472px;
+    margin: 15px;
+}
+
+main > section > div{
+    width: 360px;
+    height: 240px;
+}
+
+#color_box1{
+    background-color: #C7B8FF;
+}
+
+#color_box2{
+    background-color: #FFB8D8;
+}
+
+#color_box3{
+    background-color: #B8E0FF;
+}
+
+#color_box4{
+    background-color: #D4FFB8;
+}
+
+#color_box5{
+    background-color: #FFE4B8;
+}
+
+#color_box6{
+    background-color: #FFD4B8;
+}
+
+main > section .date{
+    margin-right: 28px;
+}
+
+main > section .author::before{
+    content: "ავტორი: ";
+}
+
+main > section > .textbox{
+    width: 322px;
+    height: 200px;
+    margin: 15px auto;
+}
+
+footer{
+    height: 403px;
+    background: #252424;
+}
+
+footer > #info{
+    width: 1240px;
+    height: 338px;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+footer > #copy{
+    height: 55px;
+    background: #020202;
+    margin-top: 11px;
+}
+
+footer > #info > #TechBlog{
+    display: inline-block;
+    width: 296px;
+}
+
+footer > #info > #TechBlog > h3{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 11px;
+}
+
+footer > #info > #TechBlog > p{
+    color: #A1A1A6;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 34px;
+}
+
+footer > #info > #TechBlog > ul{
+    list-style: none;
+}
+
+footer > #info > #TechBlog > ul > li, 
+footer > #info > #TechBlog > ul > li > a{
+    margin-bottom: 11px;
+    color: #A1A1A6;
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+footer > #info > #categories{
+    display: inline-block;
+    width: 181px;
+    vertical-align: top;
+}
+
+footer > #info > #categories > h3{
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+footer > #info > #categories > nav > ul li{
+    margin-bottom: 11px;
+}
+
+footer > #info > #categories > nav > ul li a{
+    text-decoration: none;
+    color: #A1A1A6;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+footer > #copy > h3{
+    color: #86868B;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 100%;
+    text-align: center;
+    line-height: 55px;
+}
